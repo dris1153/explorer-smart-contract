@@ -73,7 +73,6 @@ function ColorlibStepIcon(props: StepIconProps) {
   const icons: { [index: string]: React.ReactElement } = {
     1: <CurrencyBitcoin />,
     2: <GavelOutlined />,
-    3: <AttachFileOutlined />,
   };
 
   return (
@@ -86,7 +85,7 @@ function ColorlibStepIcon(props: StepIconProps) {
   );
 }
 
-const steps = ["Select A Chain", "Infor Contract", "Attach File"];
+const steps = ["Select A Chain", "Infor Contract"];
 
 export default function StepCreateSC({ step = 0 }) {
   return (
