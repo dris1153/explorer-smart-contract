@@ -88,7 +88,7 @@ function ColorlibStepIcon(props: StepIconProps) {
 
 const steps = ["Select A Chain", "Infor Contract", "Attach File"];
 
-export default function StepCreate({ step = 0 }) {
+export default function StepCreateSC({ step = 0 }) {
   return (
     <Stack sx={{ width: "100%" }} spacing={4}>
       <Stepper
