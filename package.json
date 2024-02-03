@@ -24,7 +24,9 @@
     "shadcn-ui": "^0.8.0",
     "tailwind-merge": "^2.2.1",
     "viem": "^2.5.0",
-    "wagmi": "^2.5.2"
+    "wagmi": "^2.5.2",
+    "web3": "^4.4.0",
+    "zustand": "^4.5.0"
   },
   "devDependencies": {
     "@types/node": "^20",
